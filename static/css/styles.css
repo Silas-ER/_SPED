@@ -1,0 +1,10 @@
+ body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Garante que o body tenha pelo menos a altura da viewport */
+    margin: 0; /* Remove margem padrão do body */
+}
+
+main {
+    flex-grow: 1; /* Faz o main ocupar todo o espaço restante */
+}
